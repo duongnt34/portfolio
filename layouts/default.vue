@@ -1,6 +1,6 @@
 <template>
     <div>
-      <header class="shadow-md py-5">
+      <header class="shadow-md py-5 fixed">
         <Navigation />
       </header>
       <main>
