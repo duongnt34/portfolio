@@ -1,8 +1,7 @@
 <template>
-    <div>
-        <Home></Home>
-        <About></About>
-    </div>
+    <section id="about">
+about section
+    </section>
 </template>
 
 <script setup lang="ts">
