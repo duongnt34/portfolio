@@ -1,16 +1,16 @@
 <template>
-  <section id="home" class="h-[60rem] flex items-center justify-center z-0">
+  <section id="home" class="md:h-[60rem] h-[100vh] flex md:items-center md:justify-center items-start pt-20">
     <div
-      class="container mx-auto flex md:flex-row flex-col-reverse justify-center items-center"
+      class="container mx-auto flex md:flex-row p-10 md:p-0 flex-col-reverse justify-center items-center gap-10 md-gap-0"
     >
       <div class="home-left flex flex-col max-w-[40rem]">
-        <div class="text-6xl font-bold">
+        <div class="text-2xl md:text-6xl font-bold text-center md:text-left">
           <h1>Full-stack Web Developer</h1>
         </div>
-        <div class="text-lg my-5 text-[#555]">
+        <div class="text-lg my-5 text-[#555] text-center md:text-left">
           Hi, I am duongntdev. A passionate Web Developer from Vietnam
         </div>
-        <div class="flex gap-5 items-center">
+        <div class="flex gap-5 items-center justify-center md:justify-start">
           <NuxtLink to="#">
             <font-awesome-icon class="text-3xl" :icon="['fab', 'linkedin']" />
           </NuxtLink>

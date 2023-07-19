@@ -22,7 +22,7 @@
       <nav
         v-if="isMenuOpen"
         id="mobile-nav"
-        class="absolute top-0 left-0 w-full h-full md:hidden items-center justify-center z-10 bg-white flex"
+        class="absolute top-0 left-0 w-full h-[100vh] md:hidden items-center justify-center z-50 bg-white flex"
       >
         <ul class="flex flex-col justify-center items-center gap-5 text-3xl">
           <li v-for="(menu, index) in menus" :key="index">
