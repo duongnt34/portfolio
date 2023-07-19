@@ -1,6 +1,6 @@
 <template>
-  <div class="container justify-between items-center mx-auto md:px-2 px-5 flex z-10">
-    <NuxtLink to="/">duongntdev</NuxtLink>
+  <div class="container justify-between items-center mx-auto md:px-2 px-5 flex">
+    <NuxtLink to="/"><span class="text-2xl">duongntdev</span></NuxtLink>
     <nav id="desktop-nav" class="hidden md:block text-xl">
       <ul class="flex gap-5">
         <li v-for="(menu, index) in menus" :key="index">
