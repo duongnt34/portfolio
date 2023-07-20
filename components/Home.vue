@@ -1,7 +1,7 @@
 <template>
-  <section id="home" class="md:h-[60rem] h-[100vh] flex md:items-center md:justify-center items-start pt-20">
+  <section id="home" class="bg-[#f9f9f9] h-[100vh] flex flex-col md:items-center md:justify-center items-start pt-20">
     <div
-      class="container mx-auto flex md:flex-row p-10 md:p-0 flex-col-reverse justify-center items-center gap-10 md-gap-0"
+      class="container w-2/3 flex md:flex-row p-10 md:p-0 flex-col-reverse justify-center items-center gap-10 md-gap-0"
     >
       <div class="home-left flex flex-col max-w-[40rem]">
         <div class="text-2xl md:text-6xl font-bold text-center md:text-left">
@@ -31,6 +31,14 @@
           alt=""
         />
       </div>
+    </div>
+    <div class="skills container w-2/3 flex">
+      <div class="font-bold border-r border-gray-500 pr-5">Tech Stack</div>
+      <ul>
+        <li>
+          <img src="" alt="">
+        </li>
+      </ul>
     </div>
   </section>
 </template>
