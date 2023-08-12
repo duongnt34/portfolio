@@ -35,14 +35,6 @@
           :style="`background-image: url(${HeroImg}); border-radius: ${borderRadius}`">
       </div>
     </div>
-    <div class="skills container w-2/3 flex">
-      <div class="font-bold border-r border-gray-500 pr-5">Tech Stack</div>
-      <ul>
-        <li>
-          <img src="" alt="">
-        </li>
-      </ul>
-    </div>
   </section>
 </template>
 
