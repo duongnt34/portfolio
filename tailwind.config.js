@@ -10,6 +10,14 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif']
+    },
+    colors:{
+      'primary' : '#147efb',
+      'gray-light' : '#f9f9f9',
+      'gray-dark' : '#555555',
+    }
   },
   plugins: [],
 }

@@ -1,7 +1,7 @@
 <template>
-  <div class="container justify-between items-center mx-auto md:px-20 px-5 flex">
-    <NuxtLink to="/"><span class="text-2xl">duongntdev</span></NuxtLink>
-    <nav id="desktop-nav" class="hidden md:block text-xl">
+  <div class="container justify-between items-center mx-auto md:px-20 px-5 flex font-poppins font-semibold text-lg">
+    <NuxtLink to="/"><span>duongntdev</span></NuxtLink>
+    <nav id="desktop-nav" class="hidden md:block">
       <ul class="flex gap-5">
         <li v-for="(menu, index) in menus" :key="index">
           <NuxtLink :to="menu.link">{{ menu.text }}</NuxtLink>
@@ -22,7 +22,7 @@
       <nav
         v-if="isMenuOpen"
         id="mobile-nav"
-        class="absolute top-0 left-0 w-full h-[100vh] md:hidden items-center justify-center z-50 bg-white flex"
+        class="fixed top-0 left-0 w-full h-[100vh] md:hidden items-center justify-center bg-white z-50 flex"
       >
         <ul class="flex flex-col justify-center items-center gap-5 text-3xl">
           <li v-for="(menu, index) in menus" :key="index">
