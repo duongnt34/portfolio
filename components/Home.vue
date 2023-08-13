@@ -4,7 +4,7 @@
     class="h-[100vh] w-full items-start bg-gray-light pt-[15%] md:items-center"
   >
     <div
-      class="container mx-auto flex h-full flex-col-reverse items-center justify-end gap-5 p-10 md:h-auto md:flex-row md:justify-center md:gap-10 md:p-0"
+      class="container mx-auto flex h-full flex-col-reverse items-center justify-end gap-5 px-5 py-10 md:h-auto md:flex-row md:justify-center md:gap-10 md:p-0"
     >
       <div
         class="home-left flex max-w-[40rem] flex-col justify-around gap-5 md:gap-5"
@@ -12,11 +12,13 @@
         <div class="text-center text-4xl font-bold md:text-left md:text-6xl">
           <h1>Full-stack<br />Web Developer</h1>
         </div>
-        <div class="text-gray-dark text-center text-lg md:text-left">
+        <div class="text-center text-lg text-gray-dark md:text-left">
           Hi, I am duongntdev. A passionate Web Developer from Vietnam
         </div>
         <div class="flex items-center justify-center gap-5 md:justify-start">
-          <NuxtLink to="#">
+          <NuxtLink
+            to="https://www.linkedin.com/in/tung-duong-nguyen-627a9b189/"
+          >
             <font-awesome-icon class="text-3xl" :icon="['fab', 'linkedin']" />
           </NuxtLink>
           <NuxtLink to="https://github.com/duongnt34">
@@ -28,7 +30,7 @@
         </div>
         <div class="flex flex-col items-center gap-2 md:flex-row md:gap-5">
           <label
-            class="border-gray-600 text-gray-dark flex-none border-b pb-2 text-lg md:border-b-0 md:border-r md:pb-0 md:pr-5"
+            class="flex-none border-b border-gray-600 pb-2 text-lg md:border-b-0 md:border-r md:pb-0 md:pr-5"
             for=""
             >Tech Stack</label
           >
@@ -49,7 +51,7 @@
         </div>
       </div>
       <div
-        class="home-right border-gray-800 h-64 w-64 border-4 bg-cover bg-no-repeat transition-all duration-[4000ms] ease-in-out md:h-96 md:w-96"
+        class="home-right h-64 w-64 border-4 border-gray-800 bg-cover bg-no-repeat transition-all duration-[4000ms] ease-in-out md:h-96 md:w-96"
         :style="`background-image: url(${HeroImg}); border-radius: ${borderRadius}`"
       ></div>
     </div>
@@ -57,7 +59,7 @@
 </template>
 
 <script setup lang="ts">
-import HeroImg from "@/assets/images/hero.jpg";
+import HeroImg from "@/assets/images/hero.webp";
 import LaravelLogo from "@/assets/images/laravel_logo.webp";
 import MysqlLogo from "@/assets/images/mysql_logo.webp";
 import TailwindLogo from "@/assets/images/tailwind_logo.webp";

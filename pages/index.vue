@@ -1,14 +1,9 @@
 <template>
-    <div>
-        <Home></Home>
-        <About></About>
-    </div>
+  <div>
+    <Home></Home>
+    <About></About>
+    <Projects></Projects>
+    <Contact></Contact>
+    <Footer></Footer>
+  </div>
 </template>
-
-<script setup lang="ts">
-
-</script>
-
-<style scoped>
-
-</style>
