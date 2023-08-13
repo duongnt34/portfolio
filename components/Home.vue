@@ -36,12 +36,12 @@
           >
           <ul class="flex flex-row flex-wrap justify-center gap-2 md:gap-5">
             <li
-              class="rounded-full p-2 shadow-2xl md:p-3"
+              class="rounded-lg shadow-all-side"
               v-for="(tech, index) in techStack"
               :key="index"
             >
               <img
-                class="h-9 w-9 rounded-md"
+                class="h-9 w-9 rounded-lg"
                 :src="tech.logo"
                 :title="tech.name"
                 :alt="tech.name"
