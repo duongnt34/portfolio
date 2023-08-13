@@ -4,7 +4,12 @@
       class="container mx-auto flex flex-col items-center gap-10 px-5 py-10 md:flex-row md:px-64 md:py-20"
     >
       <div class="md:w-2/5">
-        <img class="rounded-2xl" :src="AboutMeImage" alt="about me image" />
+        <img
+          loading="lazy"
+          class="rounded-2xl"
+          :src="AboutMeImage"
+          alt="about me image"
+        />
       </div>
       <div class="flex flex-col gap-3 md:w-3/5">
         <h2 class="text-lg font-semibold uppercase text-primary">About Me</h2>

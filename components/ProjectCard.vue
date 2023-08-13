@@ -9,6 +9,7 @@
       class="h-80 flex-none overflow-hidden rounded-2xl shadow-all-side md:h-auto md:w-[35rem]"
     >
       <img
+        loading="lazy"
         ref="projectImage"
         class="h-auto w-full cursor-pointer transition-transform duration-[10000ms] ease-in-out"
         :src="imageUrl"

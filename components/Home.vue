@@ -41,6 +41,7 @@
               :key="index"
             >
               <img
+                loading="lazy"
                 class="h-9 w-9 rounded-lg"
                 :src="tech.logo"
                 :title="tech.name"
