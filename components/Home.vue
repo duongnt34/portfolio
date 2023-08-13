@@ -28,13 +28,13 @@
             />
           </NuxtLink>
         </div>
-        <div class="flex flex-col items-center gap-2 md:flex-row md:gap-5">
+        <div class="flex flex-col items-center gap-5 md:flex-row md:gap-5">
           <label
             class="flex-none border-b border-gray-600 pb-2 text-lg md:border-b-0 md:border-r md:pb-0 md:pr-5"
             for=""
             >Tech Stack</label
           >
-          <ul class="flex flex-row flex-wrap justify-center gap-2 md:gap-5">
+          <ul class="flex flex-row flex-wrap justify-center gap-4 md:gap-5">
             <li
               class="rounded-lg shadow-all-side"
               v-for="(tech, index) in techStack"

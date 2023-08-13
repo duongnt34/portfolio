@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
   app: {
     head: {
       title: "duongntdev - Web Developer",
@@ -17,20 +17,43 @@ export default defineNuxtConfig({
           name: "My personal portfolio",
           content: "Full Stack Web Developer - Tung Duong Nguyen",
         },
+        {
+          property: "og:title",
+          content: "duongntdev - Web Developer",
+        },
+        {
+          hid: "twitter:title",
+          property: "twitter:title",
+          content: "duongntdev - Web Developer",
+        },
+        {
+          property: "og:description",
+          content:
+            "duongntdev's portfolio - Hi! I'm Tung Duong Nguyen, a full-stack web developer",
+        },
+        {
+          hid: "twitter:description",
+          property: "twitter:description",
+          content:
+            "duongntdev's portfolio - Hi! I'm Tung Duong Nguyen, a full-stack web developer",
+        },
       ],
       htmlAttrs: {
         lang: "en",
       },
-      link: [
-        {
-          rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&display=swap",
-        },
-      ],
     },
   },
   css: [
     "~/assets/css/main.css",
     "@fortawesome/fontawesome-svg-core/styles.css",
   ],
+  googleFonts: {
+    display: "swap",
+    families: {
+      Poppins: {
+        wght: [300, 400, 600, 700],
+        ital: [1],
+      },
+    },
+  },
 });
