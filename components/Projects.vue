@@ -3,7 +3,7 @@
     id="projects"
     class="w-full bg-gray-light pt-10 font-poppins md:pt-0"
   >
-    <div class="container mx-auto px-5 py-10 md:px-64 md:py-20">
+    <div class="container mx-auto px-5 py-10 md:px-auto md:py-20">
       <h2 class="text-lg font-semibold uppercase text-primary">Portfolio</h2>
       <h3 class="mt-3 text-2xl font-semibold">
         Each project is a unique piece of development 🧩
@@ -29,7 +29,7 @@ import VulcanoImage from "@/assets/images/project_vulcano.webp";
 import VueMoonlightImage from "@/assets/images/project_moonlight.webp";
 import BarcodeImage from "@/assets/images/project_barcode.webp";
 
-interface Project {
+type Project = {
   title: string;
   description: string;
   imageUrl: string;

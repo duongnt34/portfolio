@@ -1,7 +1,7 @@
 <template>
   <section id="contact" class="w-full py-5 font-poppins md:pt-0">
     <div
-      class="container mx-auto flex flex-col items-start px-5 py-5 md:px-64 md:py-20"
+      class="container mx-auto flex flex-col items-start px-5 py-5 md:px-auto md:py-20"
     >
       <h2 class="w-full text-lg font-semibold uppercase text-primary">
         Contact
@@ -9,7 +9,7 @@
       <h3 class="mt-3 w-full text-2xl font-semibold">
         Don't be shy! Hit me up! 👇
       </h3>
-      <div class="mt-10 flex flex-col gap-10 md:flex-row md:gap-20">
+      <div class="mt-10 w-full flex flex-col gap-10 md:flex-row md:gap-20 md:justify-between">
         <div class="flex gap-5">
           <div
             class="flex h-16 w-16 items-center justify-center rounded-full p-5 shadow-all-side"

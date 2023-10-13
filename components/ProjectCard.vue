@@ -47,7 +47,7 @@
 <script setup lang="ts">
 import { arch } from "os";
 
-interface Props {
+type Props = {
   index: number;
   title: string;
   description: string;

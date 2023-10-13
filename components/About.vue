@@ -1,7 +1,7 @@
 <template>
   <section id="about" class="w-full pt-10 font-poppins md:pt-0">
     <div
-      class="container mx-auto flex flex-col items-center gap-10 px-5 py-10 md:flex-row md:px-64 md:py-20"
+      class="container mx-auto flex flex-col items-center gap-10 px-5 py-10 md:flex-row md:px-auto md:py-20"
     >
       <div class="md:w-2/5">
         <img
